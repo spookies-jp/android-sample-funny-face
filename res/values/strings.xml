@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FunnyFace</string>
+    <string name="no_face">顔データを取得できません</string>
+    <string name="image_select">画像選択</string>
+    <string name="parts_select">パーツ選択</string>
+    <string name="changing">変換中</string>
+    <string name="failed">変換できませんでした</string>
+
+    <string name="eye_left_key">eye_left</string>
+    <string name="eye_left_title">左目</string>
+    <string name="eye_left_summary">左目を変更します</string>
+
+    <string name="eye_right_key">eye_right</string>
+    <string name="eye_right_title">右目</string>
+    <string name="eye_right_summary">右目を変更します</string>
+
+    <string name="nose_key">nose</string>
+    <string name="nose_title">鼻</string>
+    <string name="nose_summary">鼻を変更します</string>
+
+    <string name="mouse_key">mouse</string>
+    <string name="mouse_title">口</string>
+    <string name="mouse_summary">口を変更します</string>
+</resources>

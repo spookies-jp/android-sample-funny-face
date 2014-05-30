@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView android:id="@+id/title" android:src="@drawable/title" android:layout_height="wrap_content" android:layout_width="match_parent"></ImageView>
+    <LinearLayout android:layout_gravity="left|top" android:layout_weight="1" android:id="@+id/linearLayout1" android:layout_height="0dip" android:layout_width="match_parent">
+        <ImageView android:id="@+id/selectImage" android:src="@drawable/select_image" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    </LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" 
+		android:layout_width="match_parent" android:layout_gravity="right">
+		<Button android:onClick="onClickSelectImage" android:id="@+id/selectImageButton" 
+		android:text="@string/image_select" android:layout_height="wrap_content" 
+		android:layout_width="match_parent"></Button>
+	</LinearLayout>
+				
+</LinearLayout>

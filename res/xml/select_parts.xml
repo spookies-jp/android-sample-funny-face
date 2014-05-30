@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="@string/eye_left_key" android:defaultValue="true"
+		android:title="@string/eye_left_title" android:summary="@string/eye_left_summary"></CheckBoxPreference>
+	<CheckBoxPreference android:key="@string/eye_right_key" android:defaultValue="true"
+		android:title="@string/eye_right_title" android:summary="@string/eye_right_summary"></CheckBoxPreference>
+	<CheckBoxPreference android:key="@string/nose_key" android:defaultValue="true"
+		android:title="@string/nose_title" android:summary="@string/nose_summary"></CheckBoxPreference>
+	<CheckBoxPreference android:key="@string/mouse_key" android:defaultValue="true"
+		android:title="@string/mouse_title" android:summary="@string/mouse_summary"></CheckBoxPreference>
+</PreferenceScreen>
